@@ -215,7 +215,7 @@ JOIN CovidVaccination AS vac
 ON dea.location = vac.location
 AND dea.date =vac.date
 WHERE dea.continent IS NOT NULL)
-* SELECT *, ( RollingPeopleVaccinated/population)*100 AS ROLL_POPULATION
+* SELECT * , ( RollingPeopleVaccinated/population)*100 AS ROLL_POPULATION
 FROM PopvsVac;
 
 * -- USING 'TEMP TABLE' TO CREATE A TABLE
@@ -235,7 +235,7 @@ JOIN CovidVaccination AS vac
 ON dea.location = vac.location
 AND dea.new_date =vac.new_date
 WHERE dea.continent IS NOT NULL;
-* SELECT *, ( RollingPeopleVaccinated/population)*100 AS ROLL_POPULATION
+* SELECT * , ( RollingPeopleVaccinated/population)*100 AS ROLL_POPULATION
 FROM pop_vac;
 
 ## Contact:
