@@ -18,7 +18,7 @@ This repository contains MySQL codes and queries for analyzing COVID-19 data. Us
 2. Filter data by country, region, or date range.
 3. Calculate mortality rates, growth rates, and hotspot identification.
 
-## Codes:
+## Codes/Quarries:
 * CREATE DATABASE Covid19;
 * USE Covid19;
 
