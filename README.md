@@ -239,4 +239,4 @@ WHERE dea.continent IS NOT NULL;
 FROM pop_vac;
 
 ## Contact:
-*For questions or collaboration, reach out to nwisijames@gmail.com
+* For questions or collaboration, reach out to nwisijames@gmail.com
